@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #2f855a;
+  color: white;
+}
+
+.header a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.landing {
+  background: url("https://images.unsplash.com/photo-1524594154908-edd0d8f1b50b");
+  background-size: cover;
+  padding: 100px;
+  color: white;
+}
+
+.grid {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
